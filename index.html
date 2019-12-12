@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Foody App</title>
+        <link rel="stylesheet" href="styles.css" />
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="icon" type="image/png" href="images/foody.png">
+        <script src="app.js" async></script>
+    </head>
+    <body>
+        <header class="jumbotron">
+            <div class="container">
+                <nav class="navbar navbar-expand-lg navbar-dark">
+                 <a class="navbar-brand" href="#"> <img src="images/foody.png" alt="foody"><span class="text-warning"> APP</span></a>
+                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                      <li class="nav-item active">
+                        <a class="nav-link" href="#">ABOUT</a>
+                      </li>
+                      <li class="nav-item active">
+                        <a class="nav-link" href="#">OUR FOOD</a>
+                      </li>
+                      <li class="nav-item active">
+                        <a class="nav-link" href="#">PLANS</a>
+                      </li>
+                      <li class="nav-item active">
+                        <a class="nav-link" href="#">CONTACT US</a>
+                      </li>
+                    </ul>
+                  </div>
+                </nav>
+            </div>
+
+            <div class="container">
+                <div class="row row-content align-items-center">
+                    <div class="descript">
+                        <p>
+                            <h1>Have no time<br>to prepare <span class="text-warning">food</span>?</h1>
+                            <p>Choose one of our plans, enter delivery time<br>and enjoy delicious food without leaving your home!</p>
+                        </p>
+                        <button class="btn btn-warning">Order Food</button>
+                        <div>
+                            <a class="btn btn-lg btn-social-icon btn-facebook" href=""><i class="fa fa-facebook"></i></a>
+
+                            <a class="btn btn-lg btn-social-icon btn-twitter" href=""><i class="fa fa-twitter"></i></a>
+
+                            <a class="btn btn-lg btn-social-icon btn-instagram" href=""><i class="fa fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="foot">
+                <label class="btn btn-lg" href=""><label class="fa fa-angle-double-down fa-lg"></label></label>
+            </div>
+        </header>
+
+        <div>
+            <div class="row justify-content-center">
+                
+                <div class="col-sm-12 col-lg-4">
+                    <h1 class="section-header col-12">AVAILABLE OPTIONS</h1>
+                    <section class="container content-section">
+                        <div class="shop-items">
+
+                            <div class="shop-item">
+                                <img class="shop-item-image" src="Images/pizza.jpg">
+                                <span class="shop-item-title">PIZZA</span>
+                                <div class="shop-item-details">
+                                    <span class="shop-item-price">$5.99</span>
+                                    <button class="btn btn-warning btn-sm shop-item-button ml-4" type="button">ADD TO CART >></button>
+                                </div>
+                            </div>
+
+                            <div class="shop-item">
+                                <img class="shop-item-image" src="Images/burger.png">
+                                <span class="shop-item-title">BURGER</span>
+                                <div class="shop-item-details">
+                                    <span class="shop-item-price">$2.99</span>
+                                    <button class="btn btn-warning btn-sm shop-item-button ml-4" type="button">ADD TO CART >></button>
+                                </div>
+                            </div>
+
+                            <div class="shop-item">
+                                <img class="shop-item-image" src="Images/pasta.jpg">
+                                <span class="shop-item-title">CHICKEN PASTA</span>
+                                <div class="shop-item-details">
+                                    <span class="shop-item-price">$4.99</span>
+                                    <button class="btn btn-warning btn-sm shop-item-button ml-4" type="button">ADD TO CART >></button>
+                                </div>
+                            </div>
+
+                            <div class="shop-item">
+                                <img class="shop-item-image" src="Images/sandwich.jpg">
+                                <span class="shop-item-title">GRILLED SANDWICH</span>
+                                <div class="shop-item-details">
+                                    <span class="shop-item-price">$1.99</span>
+                                    <button class="btn btn-warning btn-sm shop-item-button ml-4" type="button">ADD TO CART >></button>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+                
+
+                <div class="col-sm-12 col-lg-4 offset-lg-1">
+                    <h1 class="section-header">YOUR CART</h1>
+                    <section class="container content-section">
+                        <div class="cart-items">
+                        </div>
+                        <div class="cart-total">
+                            <strong class="cart-total-title">Total Amount</strong>
+                            <span class="cart-total-price">$0</span>
+                        </div>
+                    </section>
+                </div>
+
+            </div>
+        </div>
+        <footer>
+            Thank You
+        </footer>
+    </body>
+</html>
